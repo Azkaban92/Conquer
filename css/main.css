@@ -199,15 +199,18 @@ li {display: inline;}
 
 .section-a__heading {margin-left: 20px;}
 
-.btn {padding: 8px 30px;
-      border: none;
-      color: white;
-      border-radius: 5px;
-      font-size: 20px;
-      margin-bottom: 30px;}
+.btn-a {padding: 8px 30px;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        font-size: 20px;
+        margin-bottom: 30px;}
 
 a {text-decoration: none;
-   color: white;}
+   color: #666666; border:
+   1px solid #cccccc;
+   padding: 15px 30px;
+   border-radius: 5px;}
 
 .green {background-color: #178a27;}
 
@@ -224,18 +227,52 @@ a {text-decoration: none;
             justify-content: center;
             margin-top: 70px;}
 
-.section-b__column1 {margin-right: 15px;}
+.section-b__column1 {margin-right: 15px;
+                     background-color: #f2f2f2;
+                     padding-bottom: 31px;}
 
-.section-b__column2 {margin-left: 15px;}
+.section-b__column2 {display: flex;
+                     flex-flow: column nowrap;
+                     margin-left: 15px;
+                     background-color: #f2f2f2;}
 
-.section-b__p {width: 500px;}
+.section-b__p {width: 500px;
+               margin-left: 20px;
+               font-family: "Open Sans";
+               font-weight: 300;}
 
+.section-b__heading {text-align: center;
+                     font-family: "Open Sans";
+                     font-weight: 300;}
 
+.section-b__heading-1 {margin-bottom: 0px;}
 
+.section-b__p-2 {margin-top: 0px;}
 
+.btn-b {align-self: flex-end;
+        margin-right: 89px;
+        margin-bottom: 31px;
+        background-color: white;
+        font-family: "Open Sans";
+        font-weight: 300;}
 
+.section-c__h {text-align: center; color: white;}
 
+.section-c__p {color: white;}
 
+.section-c {background-image: url(../img/bg-2.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            height: 313px;
+            width: 100%;
+            display: flex;
+            flex-flow: column nowrap;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;}
 
 
 

@@ -110,7 +110,11 @@ body {margin: 0px;
 
 html {scroll-behavior: smooth;}
 
-#A, #B, #C, #D, #E {border: none;}
+.arrow {position: relative;
+        left: 95%;
+        top: 90%; position: fixed; }
+
+#A, #B, #C, #D, #E, .arw {border: none;}
 
 .navbar {list-style: none;
          margin-top: 0;

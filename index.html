@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -23,17 +23,16 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-
 <nav>
   <ul class="navbar">
-    <li><button type="button" name="button" class="nav-btn">Homepage</button></li>
-    <li><button type="button" name="button" class="nav-btn">About Us</button></li>
-    <li><button type="button" name="button" class="nav-btn">Services</button></li>
-    <li><button type="button" name="button" class="nav-btn">Contact</button></li>
-    <li><button type="button" name="button" class="nav-btn">External</button></li>
+    <li><a href="#A" name="homepage" class="nav-btn">Homepage</a></li>
+    <li><a href="#B" name="about" class="nav-btn">About Us</a></li>
+    <li><a href="#C" name="services" class="nav-btn">Services</a></li>
+    <li><a href="#D" name="contact" class="nav-btn">Contact</a></li>
+    <li><a href="#E" name="external" class="nav-btn">External</a></li>
   </ul>
 </nav>
-
+<a id="A"></a>
 <div class="hero">
 
 <h1 class="hero__main-title">Conquer</h1>
@@ -41,6 +40,7 @@
 <p class="hero__main-p">Simple HTML/CSS Template</p>
 
 </div>
+<a id="B"></a>
 
 <div class="section-a">
 
@@ -135,7 +135,7 @@
   </div>
 
 </section>
-
+<a id="C"></a>
 <section class="section-c">
 
 <h2 class="section-c__h">Our Services</h2>
@@ -170,7 +170,7 @@ Fusce posuere egestas enim eu viverra.</p>
 Sed faucibus dui libero, in tincidunt purus pretium quis.
 Fusce posuere egestas enim eu viverra.</p>
 
-<a href="#" class="section-d__btn">Read it</a>
+<a href="#" class="section-d__btn">Read It</a>
 
 </div>
 
@@ -223,34 +223,45 @@ Morbi sagittis justo a velit placerat ullamcorper quis quis velit. Sed convallis
 Praesent quis velit neque. Quisque semper porta nisi vitae suscipit.
 Duis lectus magna, ornare ac scelerisque quis, maximus eget nisi.</p>
 
-<a href="#" class="section-e__btn">Read more</a>
+<a href="#" class="section-e__btn">Read More</a>
 
 </div>
 
 </section>
 
-<h2>Contact form</h2>
+<section class="section-f">
+<a id="D"></a>
+<h2 class="section-f__h">Contact form</h2>
 
-<p>Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id
+<p class="section-f__p">Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id
 felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia.
 Etiam a mi quis arcu varius condimentum.</p>
 
-<input type="text" name="name" placeholder="Name">
+<div class="section-f__container">
 
-<input type="text" name="email" placeholder="Email">
+<div class="section-f__column1">
 
-<input type="text" name="subject" placeholder="Subject">
+<input type="text" name="name" placeholder="Name" class="section-f__column1__name">
 
-<input type="text" name="message" placeholder="Your message here...">
+<input type="text" name="email" placeholder="Email" class="section-f__column1__email">
 
-<button type="submit" name="button">Send</button>
+<input type="text" name="subject" placeholder="Subject" class="section-f__column1__subject">
 
-<h3>Use it free!</h3>
+</div>
 
-<p>“Conquer is free pure HTML/CSS template from templatemo website.
-No backlink is required to use this layout.”</p>
+<div class="section-f__column2">
 
-<p>Copyright © 2084 Your Company Name | Design: templatemo</p>
+<textarea name="Text1" cols="40" rows="5" placeholder="Your message here..." class="section-f__column2__message"></textarea>
+
+</div>
+
+</div>
+
+<button type="submit" name="button" class="final-btn">Send</button>
+
+</section>
+
+<p class="copy">Copyright © 2084 Your Company Name | Design: templatemo</p>
 
 
 
